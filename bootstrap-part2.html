@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- bootstrap ikoner -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <!-- mit eget stylesheet -->
+    <link rel="stylesheet" href="mystyles.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+        <div class="container">
+        <div class="row">
+            
+            <!-- bitmap format jpg -->
+            <!-- for at få billedet til at fylde halvdelen af colonnen skal jeg skriver "col-lg-6" ind i og med der er 12 colonner ialt. -->
+            <div class="col-lg-6">
+                <!-- for at få billedet til at fylde colonnen så skal man tilføje "class="img-fluid" fra bootstrap -->
+                    <img src="pexels-valeria-boltneva-14401.jpg" class="img-fluid" alt="roser">
+            </div>
+            
+            <!-- vektor format svg -->
+            <div class="col-lg-6">
+                    <img src="hund.svg" alt="hund">
+            </div>
+            <!-- embed -->
+            <div class="col">
+                <div class="flourish-embed flourish-chart" data-src="visualisation/8323546"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+            </div>  
+        </div>
+        <div class="row">
+<!-- for at flytte colonnerne ind i midten -->
+            <div class="col d-flex justify-content-around">
+                <i class="bi bi-suit-heart-fill"></i>
+                <i class="bi bi-emoji-heart-eyes"></i>
+            </div>
+
+        </div>
+        </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
